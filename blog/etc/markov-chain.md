@@ -21,7 +21,7 @@ tags: [etc]
 
 ### 瞬态 Transient State
 一个瞬态的意思是, 对于这个状态, 如果我们离开这个状态, 就再也无法回到这个状态.
-与之相对的是Recurrent State, 这个状态总会被回归到.
+与之相对的是Recurrent State, 这个状态总会被回归到(或者说, 存在离开这个状态后回归到这个状态的概率).
 
 ### 可约 Reducible
 存在瞬态的马尔科夫链是可约的.
@@ -29,7 +29,7 @@ tags: [etc]
 ### 通信类 Communicating Class
 对于可约的马尔科夫链, 其各个不可约的拆分为通信类.
 
-### P_{ij}(n) = A_{ij}^n
+### $P_{ij}(n) = A_{ij}^n$
 
 
 
