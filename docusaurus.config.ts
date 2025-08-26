@@ -13,6 +13,11 @@ const config: Config = {
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
+  url: 'https://aixd.github.io', // Your website URL
+  baseUrl: '/',
+  projectName: 'aixd.github.io',
+  organizationName: 'aixd',
+  trailingSlash: false,
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -22,8 +27,10 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  // organizationName: 'facebook', // Usually your GitHub org/user name.
+  // projectName: 'docusaurus', // Usually your repo name.
+  
+  
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
