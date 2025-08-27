@@ -493,6 +493,6 @@ Implicit Surface - Sampling can be hard 缺点: 隐含表示 难以说出它的�
 f(x,y,z)=(2-sqrt(x^2+y^2))+z^2-1
 
 Inside/Outside Tests Easy 优点, 容易说出一个点在几何的内部/外部, 或者在几何上
-f<0, inside; f=0, on; f>0, outside
+f &lt; 0, inside; f = 0, on; f &gt; 0, outside
 f(x,y,z)=x^2+y^2+z^2-1 Is (3/4,1/2,1/4) inside?
 f(3/4,1/2,1/4) = -1/8 < 0 Yes, inside

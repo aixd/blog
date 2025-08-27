@@ -1,17 +1,17 @@
-+++
-title = 'Games101 Appendix'
-date = 2024-10-13T17:30:39+08:00
-draft = false
-+++
+---
+slug: games101-appendix
+title: Games101 Appendix
+tags: [games, games101]
+---
 
 ### 1
 
 orthographic projection 这块讲的有点急，一开始没说这个立方体其实是场景或者物体切片（clipping planes），也就是把我们想要渲染的 3D 模型卡在这样一个立方体内，然后将其正规化到【-1， 1】中，然后舍弃 z 维度就是正交投影了。
-因为自己这块听的比较模糊，而且看弹幕也有不少对这块不清楚的，故作此评论。内容参考<https://en.wikipedia.org/wiki/Orthographic_projection>
+因为自己这块听的比较模糊，而且看弹幕也有不少对这块不清楚的，故作此评论。内容参考[ref](https://en.wikipedia.org/wiki/Orthographic_projection)
 
 ### 2
 
-<https://pbr-book.org/4ed/contents>
+[bible](https://pbr-book.org/4ed/contents)
 《基于物理学的渲染》的“圣经”，优秀到麻省理工大学专门出钱买了版权搞了免费在线版。
 网上的在线版是完全免费的，但是纸制书要一百多刀。
 这本书有一个配套的渲染系统 PBRT(Physically Based Rendering Tutorial)，完美理论加实践。
