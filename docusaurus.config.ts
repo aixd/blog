@@ -14,7 +14,7 @@ const config: Config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
   url: 'https://aixd.github.io', // Your website URL
-  baseUrl: '/blog/',
+  baseUrl: '/',
   projectName: 'aixd.github.io',
   organizationName: 'aixd',
   trailingSlash: false,
@@ -26,8 +26,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [

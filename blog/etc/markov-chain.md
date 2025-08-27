@@ -4,8 +4,6 @@ title: Markov Chain
 tags: [etc]
 ---
 
-## what is Markov Chain?
-
 马尔科夫链聚焦于这样的问题: 我们能够从任意的目前状态预测所有未来的状态和其转移概率.
 
 <!-- truncate -->
@@ -29,7 +27,7 @@ tags: [etc]
 ### 通信类 Communicating Class
 对于可约的马尔科夫链, 其各个不可约的拆分为通信类.
 
-### $P_{ij}(n) = A_{ij}^n$
+<!-- ### $P_{ij}(n) = A_{ij}^n$ -->
 
 
 
